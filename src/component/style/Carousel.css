@@ -1,0 +1,241 @@
+/* Set a default height for larger screens */
+
+.my_card {
+  /* position: absolute;
+  top: 100;
+  z-index: 10;
+  margin-top: 13%;
+  margin-left: 1%; */
+}
+
+.inter_card {
+  background-color: #4747472f;
+  border-radius: 2%;
+  /* width: 20px; */
+  text-align: "center";
+  padding: 2%;
+}
+
+@media only screen and (min-width: 490px) {
+  .my_carousel {
+    height: 350px !important;
+    margin-bottom: 4%;
+  }
+
+  .hidden_card {
+    display: none;
+    position: relative;
+    margin-top: 4%;
+    /* margin-left: 3%; */
+    text-align: center;
+  }
+
+  .my_card {
+    display: show;
+    position: absolute;
+    top: 100;
+    z-index: 10;
+    margin-top: 13%;
+    margin-left: 15%;
+  }
+}
+
+.glow {
+  /* font-size: calc(2px + 18vh); */
+  line-height: calc(20px +30vh);
+  /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px rgba(97, 97, 97, 0.701), 0 0 15px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+.text {
+  font-size: large;
+}
+
+@media only screen and (min-width: 641px) {
+  .bigFont {
+    top: "20%";
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .my_card {
+    display: none;
+    position: absolute;
+    top: 200;
+    z-index: 10;
+    margin-top: 13%;
+    margin-left: 15%;
+  }
+
+  .hidden_card {
+    display: show;
+    position: absolute;
+    display: flex;
+    /* margin-top: 4%; */
+    margin-left: 3.5%;
+    text-align: center;
+    /* align-items: center; */
+    top: 22%;
+    /* background-color: orange; */
+  }
+
+  .backgroundContainer {
+    background-color: #1f1e1e71;
+    border-radius: 10px;
+  }
+
+  .hidden_card h5 {
+    color: white;
+  }
+
+  .hidden_card p {
+    color: white;
+  }
+}
+
+.cardContainer {
+  width: 96%;
+  margin-left: 70px;
+  /* margin-right: 2%; */
+}
+
+@media only screen and (max-width: 395px) {
+  .hidden_card {
+    display: show;
+    position: absolute;
+    margin-left: 0%;
+    text-align: center;
+
+    top: 18%;
+
+    padding: 2%;
+  }
+  .inter_card {
+    background-color: orange;
+    /* padding: 1%; */
+  }
+
+  .hidden_card h5 {
+    color: white;
+  }
+
+  .hidden_card p {
+    color: white;
+  }
+
+  .cardContainer {
+    width: 360px;
+    margin-left: 4%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .my_carousel {
+    height: 350px !important;
+    margin-bottom: 2%;
+    /* margin-top: 2%; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .my_carousel {
+    height: 450px !important;
+    margin-bottom: 5%;
+    /* margin-top: 2%; */
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .my_carousel {
+    height: 850px !important;
+    margin-bottom: 1%;
+    /* margin-top: 1%; */
+  }
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .z {
+    position: absolute;
+    /* top: 40; */
+    z-index: 12;
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+
+  .inter_card {
+    padding: 2%;
+    width: 350px;
+    text-align: "center";
+    padding: 5%;
+  }
+
+  .mybutton {
+    padding: 3%;
+  }
+  .btn-container {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .my_carousel {
+    height: 650px !important;
+    margin-bottom: 5%;
+    /* margin-top: 1%; */
+  }
+  .inter_card p {
+    font-size: 20px;
+    margin-top: 22px;
+  }
+  .inter_card h5 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(
+      rgba(30, 30, 39, 0.904),
+      rgb(4, 50, 134)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 45px;
+    /* margin-bottom: 200px; */
+  }
+  .buttonContainer {
+    margin-top: 2px;
+  }
+}
+
+.aspectRatio {
+  aspect-ratio: 2/1.2;
+}
+
+
+@media only screen and (max-width: 582px) {
+  .aspectRatio {
+    aspect-ratio: 0.9;
+  }
+}
+@media only screen and (min-width: 582px) {
+  .aspectRatio {
+    aspect-ratio: 2;
+  }
+
+  .aspectRatio div {
+    margin-top: 35px;
+  }
+}
+
+
+

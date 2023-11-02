@@ -1,0 +1,92 @@
+.button {
+  background-image: linear-gradient(
+    to right,
+    #00d2ff 0%,
+    #3a7bd5 51%,
+    #00d2ff 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.myImage {
+  height: 2px;
+  width: 3px
+}
+
+.joindusContainer {
+  padding: 5%;
+}
+
+@media only screen and (max-width: 750px) {
+  .joindusContainer {
+    padding: 12%;
+  }
+
+  .myImage {
+    height: 70%;
+    width: 20px;
+  }
+
+  .headingText {
+    font-size: x-large !important;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .button {
+    background-image: linear-gradient(
+      to right,
+      #00d2ff 0%,
+      #3a7bd5 51%,
+      #00d2ff 100%
+    );
+    margin: 10px;
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+}
+
+
+@media only screen and (min-width: 750px) {
+  .headingText {
+    padding: 2%;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .myImage {
+    height: 70%;
+    width: 40%;
+  }
+}
+
+
+@media only screen and (min-width: 0px) {
+  .myImage {
+    width: 450px;
+    height: 300px;
+    object-fit: contain;
+  }
+}

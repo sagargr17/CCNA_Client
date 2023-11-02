@@ -1,0 +1,64 @@
+.profile_image {
+  height: 40%;
+  width: 40%;
+  text-align: "center";
+  padding: 1.1%;
+}
+
+@media only screen and (max-width: 490px) {
+  .profile_image {
+    height: 300px;
+    width: 400px;
+    text-align: "center";
+    padding: 1.1%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 490px) {
+  .profile_image {
+    height: 300px;
+    width: 400px;
+    text-align: "center";
+    padding: 1.1%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .profile_image {
+    height: 400px;
+    width: 600px;
+    text-align: "center";
+    padding: 1.1%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profile_image {
+    height: 500px;
+    width: 700px;
+    text-align: "center";
+    padding: 1.1%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .profile_image {
+    height: 500px;
+    width: 950px;
+    text-align: "center";
+    padding: 1.1%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .my_carousel {
+    height: 850px !important;
+    margin-bottom: 1%;
+    /* margin-top: 1%; */
+  }
+}

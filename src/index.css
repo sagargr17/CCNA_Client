@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "myboldfont";
+  src: url("./font/PTSerif-Bold.ttf");
+}
+@font-face {
+  font-family: "myfont";
+  src: url("./font/PTSerif-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "myitalicfont";
+  src: url("./font/PTSerif-BoldItalic.ttf") format("ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  /* background-color: rgb(250, 248, 248); */
+}
+
+/* @media (min-width: 640px) {
+  .inputField {
+    width: 400px !important;
+  }
+} */
+@media  only screen and( min-width: 1130px) {
+  .inputField {
+    width: 1075px !important;
+    
+  }
+  
+  
+  
+}
+@media  only screen and( min-width: 650px) {
+  .modifyinput{
+    width: 75%!important;
+  }
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+.submit_button{
+    width:85% ;
+    margin-left: 7%;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 635px) {
+    .submit_button{
+        width:75% ;
+        
+    }
+
+
+}
