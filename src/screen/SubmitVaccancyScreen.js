@@ -48,7 +48,6 @@ export default function SubmitVaccancyScreen() {
       phoneNumber !== null &&
       additionalInfo !== null &&
       location !== null
-      
     ) {
       const formData = new FormData();
       formData.append("institution", roleType);
@@ -98,16 +97,11 @@ export default function SubmitVaccancyScreen() {
   return (
     <div>
       <Header />
-      <h1
-        class=" text-4xl xl:text-5xl text-orange dark:text-blue mb-1 mt-8"
-        style={{
-          color: "orange",
-          textAlign: "center",
-        }}
-      >
-        Submit Vaccancy
-      </h1>
-
+      <div class="text-center">
+        <h1 class="text-2xl sm:text-4xl ml-2 lg:text-5xl font-bold leading-9 text-blue-900 text-blue:800  my-5 ">
+          ~ Submit Vaccancy ~
+        </h1>
+      </div>
       <form
         class=" light-bg outline-white border-slate-400 m-5 xl:m-14 p-7 "
         style={{

@@ -84,9 +84,8 @@ export default function ContactusScreen() {
         </div>
       </div>
       <LineForm />
-      <div class="mt-6">
-        <Joindus />
-      </div>
+      <Joindus />
+      <div class="mt-6"></div>
 
       <Footer />
     </div>

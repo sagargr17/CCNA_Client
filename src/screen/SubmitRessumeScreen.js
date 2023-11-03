@@ -159,7 +159,7 @@ export default function SubmitRessumeScreen(props) {
   };
   const handleSubmmitResumeForVaccancy = (event) => {
     event.preventDefault();
-    console.log("with ID")
+    console.log("with ID");
     setIsLoading(true);
 
     if (
@@ -275,15 +275,11 @@ export default function SubmitRessumeScreen(props) {
   return (
     <div>
       <Header />
-      <h1
-        class=" text-4xl xl:text-5xl text-orange dark:text-blue mb-1 mt-8"
-        style={{
-          color: "orange",
-          textAlign: "center",
-        }}
-      >
-        Submit Resume
-      </h1>
+      <div class="text-center">
+        <h1 class="text-2xl sm:text-4xl ml-2 lg:text-5xl font-bold leading-9 text-blue-900 text-blue:800  my-5 ">
+          ~ Submit Ressume ~
+        </h1>
+      </div>
       <form
         // method="POST"
         class=" light-bg outline-white border-slate-400 m-5 xl:m-14 p-7 "
@@ -390,69 +386,6 @@ export default function SubmitRessumeScreen(props) {
                 id="default-input"
                 class="bg-gray-50 mr-3 modify-input sm:w-44   mb-3 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               />
-              <div
-                class="flex-5"
-                style={
-                  {
-                    // width:"100px"
-                  }
-                }
-              >
-                <button
-                  id="dropdownUsersButton"
-                  data-dropdown-toggle="dropdownUsers"
-                  data-dropdown-placement="bottom"
-                  class="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2"
-                  type="button"
-                  style={
-                    {
-                      // width: "100px",
-                      // paddingLeft: "3%",
-                    }
-                  }
-                >
-                  {selectedCountry ? selectedCountry : "country"}
-                  <svg
-                    class="w-2.5 h-2.5 ml-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <div
-                  id="dropdownUsers"
-                  class="z-10 hidden bg-white rounded-lg shadow w-60 dark:bg-gray-700"
-                >
-                  <ul
-                    class="h-48 py-2 overflow-y-auto text-gray-700 w-48  dark:text-gray-200 sm:mr-14"
-                    aria-labelledby="dropdownUsersButton"
-                  >
-                    {countries.length > 0
-                      ? countries.map((x) => (
-                          <li>
-                            <a
-                              onClick={() => {
-                                setSelectedCountry(x.label);
-                              }}
-                              class="flex items-center text-sm text-black-400  px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                            >
-                              {x.label}
-                            </a>
-                          </li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -556,7 +489,7 @@ export default function SubmitRessumeScreen(props) {
             />
           </div>
 
-          <div class="mb-6 flex-1 ">
+          <div class="mb-6 flex-1 ml-0 sml:ml-10 ">
             <label
               for="default-input"
               class="block mb-2  text-sm font-medium text-gray-700 dark:text-white"
@@ -639,10 +572,10 @@ export default function SubmitRessumeScreen(props) {
         </div>
 
         <div class="flex flex-col sm:flex-row  justify-center items-center mb-7 sm:ml-2  mt-5 sm:mt-0">
-          <div class="mb-2 flex flex-col sm:flex-row justify-start items-center sm:mt-10 flex-1 sm:ml-2 ">
+          <div class="mb-2  justify-start items-center sm:mt-10 flex-1 sm:ml-2 ">
             <label
               for="default-input"
-              class="block mb-3  text-sm font-medium text-gray-700 dark:text-white sm:mr-8"
+              class="block mb-3 ml-10    text-md font-medium text-gray-700 dark:text-white sm:mr-8"
             >
               Upload your CV*
             </label>
@@ -652,13 +585,14 @@ export default function SubmitRessumeScreen(props) {
               type="file"
             ></input>
           </div>
-          <div class="mb-2 flex flex-col sm:flex-row justify-start items-center mt-10 flex-1 sm:ml-2 ">
+          <div class="mb-1  justify-start items-center mt-10 flex-1 sm:ml-2 ">
             <label
               for="default-input"
-              class="block mb-3  text-sm font-medium text-gray-700 dark:text-white sm:mr-8"
+              class="block mb-3 ml-10    text-md font-medium text-gray-700 dark:text-white sm:mr-8"
             >
               Upload Your qualification*
             </label>
+
             <input
               onChange={(e) => setUploadQualification(e.target.files[0])}
               class="ml-10 sm:ml-0"

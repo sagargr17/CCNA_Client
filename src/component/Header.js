@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <>
       <div
-        class="flex flex-wrap   rounded-md shadow-lg  items-center  mb-2 bg-blue justify-around"
+        class="flex  flex-wrap   rounded-md shadow-lg  items-center  mb-2 bg-blue justify-around"
         role="group"
       >
         <div class="flex rounded-md mb-2 bg-blue justify-center  flex-wrap  items-center  ">
@@ -64,31 +64,34 @@ export default function Header() {
           </h3>
         </div>
         <div class="item">
-          <button
-            type="button"
-            style={{
-              color: "white",
-              // background: "#192655",
-              border: "1px solid",
-              borderColor: "white",
-            }}
-            class="px-4 py-2 text-lg text-sm sm:text-sm   hover:bg-blue-900 hover:text-blue-700 bg-blue-800 focus:z-10 "
-          >
-            Submit Resume
-          </button>
-
-          <button
-            type="button"
-            style={{
-              color: "white",
-              // background: "#192655",
-              border: "1px solid",
-              borderColor: "white",
-            }}
-            class="px-4 py-2 text-lg text-sm sm:text-sm   hover:bg-blue-900 hover:text-blue-700 bg-blue-800 focus:z-10 "
-          >
-            Submit vacancy
-          </button>
+          <a href="/submitressume">
+            <button
+              type="button"
+              style={{
+                color: "white",
+                // background: "#192655",
+                border: "1px solid",
+                borderColor: "white",
+              }}
+              class="px-4 py-2 text-lg text-sm sm:text-sm   hover:bg-blue-900 hover:text-blue-700 bg-blue-800 focus:z-10 "
+            >
+              Submit Resume
+            </button>
+          </a>
+          <a href="/submitvaccancy">
+            <button
+              type="button"
+              style={{
+                color: "white",
+                // background: "#192655",
+                border: "1px solid",
+                borderColor: "white",
+              }}
+              class="px-4 py-2 text-lg text-sm sm:text-sm   hover:bg-blue-900 hover:text-blue-700 bg-blue-800 focus:z-10 "
+            >
+              Submit vacancy
+            </button>
+          </a>
         </div>
       </div>
       <nav
@@ -96,7 +99,7 @@ export default function Header() {
           position: "sticky",
           top: 0,
           borderBottomColor: "2px solid gray",
-          // zIndex: 20,
+          zIndex: 1,
           boxShadow: " 2px 1px #e8e4e3",
         }}
         class="bg-white border-gray-200  md:p-4 dark:bg-gray-900 dark:border-gray-700  "
@@ -170,8 +173,11 @@ export default function Header() {
                   class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                 >
                   <ul
-                    class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                    class="py-2 text-sm text-gray-700 dark:text-gray-400 "
                     aria-labelledby="dropdownLargeButton"
+                    style={{
+                      zIndex: 100,
+                    }}
                   >
                     <li>
                       <a

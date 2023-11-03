@@ -6,7 +6,12 @@ export default function (props) {
       id={props.id}
       class="flex-start  border border-gray-200 rounded-lg shadow my-2 sm:mb-10 justify-evenly py-2 px-2  pr-36 mx-2  md:pr-0  "
     >
-      <div class="flex flex-col ">
+      <div
+        class="flex flex-col "
+        style={{
+          zIndex: 20,
+        }}
+      >
         <h5
           class="mb-1  text-2xl sm:text-3xl text-orange  font-bold tracking-tight text-blue-900 text-blue:800 flex"
           color="orange"
