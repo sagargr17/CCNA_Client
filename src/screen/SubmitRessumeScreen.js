@@ -489,7 +489,7 @@ export default function SubmitRessumeScreen(props) {
             />
           </div>
 
-          <div class="mb-6 flex-1 ml-0 sml:ml-10 ">
+          <div class="mb-6 ml-10 flex-1 ml-0 sml:ml-10 ">
             <label
               for="default-input"
               class="block mb-2  text-sm font-medium text-gray-700 dark:text-white"
@@ -575,7 +575,7 @@ export default function SubmitRessumeScreen(props) {
           <div class="mb-2  justify-start items-center sm:mt-10 flex-1 sm:ml-2 ">
             <label
               for="default-input"
-              class="block mb-3 ml-10    text-md font-medium text-gray-700 dark:text-white sm:mr-8"
+              class="block mb-3 ml-10 sm:ml-0    text-md font-medium text-gray-700 dark:text-white sm:mr-8"
             >
               Upload your CV*
             </label>
@@ -588,7 +588,7 @@ export default function SubmitRessumeScreen(props) {
           <div class="mb-1  justify-start items-center mt-10 flex-1 sm:ml-2 ">
             <label
               for="default-input"
-              class="block mb-3 ml-10    text-md font-medium text-gray-700 dark:text-white sm:mr-8"
+              class="block mb-3 ml-10 sm:ml-0    text-md font-medium text-gray-700 dark:text-white sm:mr-8"
             >
               Upload Your qualification*
             </label>
@@ -636,6 +636,14 @@ export default function SubmitRessumeScreen(props) {
                   fill="currentFill"
                 />
               </svg>
+              <p class="text-lg text-white mx-5">
+                <span class="text-left">
+                  Validating your details, connecting to the best-suited
+                  options.
+                  <br></br>
+                </span>
+                Please wait,It may took few minutes....{" "}
+              </p>
             </div>
           </div>
         </div>

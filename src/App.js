@@ -1,21 +1,18 @@
-import "./App.css";
-import { useState } from "react";
 import axios from "axios";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./screen/Home";
 import "flowbite";
-import Aboutus from "./component/Aboutus";
-import Header from "./component/Header";
+import { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
 import AboutusScreen from "./screen/AboutusScreen";
-import ContactusScreen from "./screen/ContactusScreen";
-import Footer from "./component/Footer";
 import AgedCareScreen from "./screen/AgedCareScreen";
-import HomeCare from "./screen/HomeCare";
+import ContactusScreen from "./screen/ContactusScreen";
 import DisabilitySupport from "./screen/DisabilitySupport";
-import TrainingScreen from "./screen/TrainingScreen";
+import FindJobs from "./screen/FindJobs";
+import Home from "./screen/Home";
+import HomeCare from "./screen/HomeCare";
 import SubmitRessumeScreen from "./screen/SubmitRessumeScreen";
 import SubmitVaccancyScreen from "./screen/SubmitVaccancyScreen";
-import FindJobs from "./screen/FindJobs";
+import TrainingScreen from "./screen/TrainingScreen";
 
 function App() {
   const [file, setFile] = useState();
@@ -110,7 +107,7 @@ function App() {
                 <>
                   <SubmitVaccancyScreen></SubmitVaccancyScreen>
                 </>
-            }
+              }
             />
             <Route
               path="/submitresume/"
@@ -152,9 +149,7 @@ function App() {
               element={
                 <>
                   <div>
-                    <SubmitRessumeScreen
-                    isResumeForVacancy={false}
-                    />
+                    <SubmitRessumeScreen isResumeForVacancy={false} />
                   </div>
                 </>
               }

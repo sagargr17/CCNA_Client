@@ -19,8 +19,8 @@ export default function Home() {
     <>
       <Header></Header>
       <MYCarousel></MYCarousel>
-      <Aboutus></Aboutus>
       <Ourservice />
+      <Aboutus></Aboutus>
       <Joindus></Joindus>
       <Footer />
       <div

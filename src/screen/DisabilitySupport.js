@@ -36,15 +36,19 @@ export default function DisabilitySupport() {
                 textAlign: "justify",
               }}
             >
-              CCNA is your trusted partner in healthcare staffing. With a deep
-              commitment to quality care, we provide healthcare facilities with
-              access to a network of highly qualified and compassionate
-              professionals, including registered nurses, doctors, therapists,
-              and allied health specialists. Our tailored staffing solutions are
-              designed to meet your facility's unique needs, ensuring you have
-              the right personnel in place to deliver exceptional patient care.
-              Choose Health Staffing Solutions for reliable, customized staffing
-              support that helps your healthcare facility thrive.
+              Experience the transformative power of exceptional disability
+              service workers with CCNA. Our dedicated team is committed to
+              enhancing the quality of life for individuals with disabilities by
+              providing personalized support and assistance tailored to their
+              unique needs and preferences. From promoting independence and
+              empowerment to advocating for rights protection and ensuring
+              safety and well-being, our skilled professionals go above and
+              beyond to make a positive impact in the lives of our clients. With
+              CCNA, you can trust that your loved ones are in caring and capable
+              hands, receiving the highest standard of person-centered care and
+              support. Contact us today to learn more about how we can help you
+              or your loved ones thrive.ized staffing support that helps your
+              healthcare facility thrive.
             </p>
             <li>bullet point 1</li>
             <li>bullet point 2</li>
@@ -52,9 +56,9 @@ export default function DisabilitySupport() {
           </div>
         </div>
       </section>
-  
+
       <Joindus></Joindus>
-    
+
       <Footer></Footer>
     </div>
   );

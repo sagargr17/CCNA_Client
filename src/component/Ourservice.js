@@ -58,11 +58,11 @@ export default function Ourservice() {
             textAlign: "center",
           }}
         >
-          <h1 class="text-3xl lg:text-5xl font-bold leading-9 text-blue-900 text-blue:800 ">
+          <h1 class="text-3xl lg:text-5 xl font-bold leading-9 text-blue-900 text-blue:800 ">
             Our Services
           </h1>
         </div>
-        <div class="2xl:container 2xl:mx-auto lg:py-16   lg:pb-5 lg:px-20 md:py-9 md:px-6 py-2 px-4   flex flex-col sm:flex-row ">
+        <div class="2xl:container 2xl:mx-auto lg:py-16   lg:pb-5 lg:px-20 md:py-9 md:px-6 py-2 px-4   flex flex-col sm:flex-row w-50 ">
           <div class="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow my-2 mx-2">
             <div class="relative w-full h-48">
               <img
@@ -105,11 +105,12 @@ export default function Ourservice() {
                   the eleven months he spent in the womb.
                 </p>
               </div>
+
               <button
                 type="button"
                 class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
               >
-                View
+                <a href="/services/homecare/">View</a>
               </button>
             </div>
           </div>
@@ -134,7 +135,7 @@ export default function Ourservice() {
                 type="button"
                 class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
               >
-                View
+                <a href="/services/disabilitysupport/">View</a>
               </button>
             </div>
           </div>
@@ -170,11 +171,13 @@ export default function Ourservice() {
           Our Services
         </h1>
         <div
-          style={{
-            // display: "flex",
-          }}
+          style={
+            {
+              // display: "flex",
+            }
+          }
         >
-          <div >
+          <div>
             <ReactCardSlider slides={slides} />
           </div>
         </div>

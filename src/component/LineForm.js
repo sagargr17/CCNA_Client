@@ -33,7 +33,7 @@ export default function LineForm(props) {
       formData.append("email", email);
       formData.append("subject", subject);
       formData.append("phone_number", phoneNumber);
-      formData.append("message", message);
+      formData.append("field", message);
       axios
         .post("http://127.0.0.1:8000/api/lineForm/", formData, {
           headers: {
@@ -55,7 +55,7 @@ export default function LineForm(props) {
           console.log(y);
           setIsLoading(false);
           setInfo({
-            title: "Invalid Data !",
+            title: "INVALID DATA !",
             isVisible: true,
             message:
               "The data you provided appears invalid. Please ensure your email is being used for the first time, and that your file format and size are valid.",
@@ -63,7 +63,7 @@ export default function LineForm(props) {
         });
     } else {
       setInfo({
-        title: "Invalid Data!",
+        title: "INVALID DATA !",
         message: "Message you provided seems to be invalid or missing!",
         isVisible: true,
       });
@@ -128,7 +128,7 @@ export default function LineForm(props) {
               borderRadius: 12,
             }}
           >
-            <div class="text-left" >
+            <div class="text-left">
               <label
                 for="first_name"
                 class="block mb-2 text-sm  font-medium text-gra-cay-900 dark:text-white"
@@ -185,7 +185,7 @@ export default function LineForm(props) {
               </label>
               <input
                 onChange={(e) => setPhoneNumber(e.target.value)}
-                type="tel"
+                type="number"
                 id="phone"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="123-45-678"
@@ -201,7 +201,7 @@ export default function LineForm(props) {
                 Mesage
               </label>
               <input
-              placeholder="Message"
+                placeholder="Message"
                 onChange={(e) => setMessage(e.target.value)}
                 type="text"
                 id="large-input"
@@ -229,7 +229,33 @@ export default function LineForm(props) {
               </svg>
             </div>
           ) : info.title ? (
-            <p>info.title</p>
+            <div class="text-center">
+              <p
+                class="text-2xl"
+                style={{
+                  color: info.title === "Successfully Sent !" ? "green" : "red",
+                }}
+              >
+                {info.title}
+              </p>
+              {info.title !== "Successfully Sent !" ? (
+                <p
+                  class="text-red-500"
+                >
+                  {info.message}
+                </p>
+              ) : null}
+              <button
+                type="submit"
+                style={{
+                  textAlign: "center",
+                  alignItems: "center",
+                }}
+                class="submit_button my-2 ml-5 sm:my-4  text-white mx-11 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg "
+              >
+                Submit
+              </button>
+            </div>
           ) : (
             <button
               type="submit"

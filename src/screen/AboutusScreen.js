@@ -16,15 +16,16 @@ export default function AboutusScreen() {
       </div>
       <div class="flex lg:px-20 lg:pb-20 justify-between flex-col md:flex-row  flex-col-reverse ">
         <p class="text-lg px:2 font-medium text-gray-700 md:text-xl dark:text-gray-700 py-10 pb-0  lg:py-10 px-2  md:mx-5   sm:w-3/4 text-justify ">
-          CCNA is your trusted partner in healthcare staffing. With a deep
-          commitment to quality care, we provide healthcare facilities with
-          access to a network of highly qualified and compassionate
-          professionals, including registered nurses, doctors, therapists, and
-          allied health specialists. Our tailored staffing solutions are
-          designed to meet your facility's unique needs, ensuring you have the
-          right personnel in place to deliver exceptional patient care. Choose
-          Health Staffing Solutions for reliable, customized staffing support
-          that helps your healthcare facility thrive.
+          Committed to delivering top-notch nursing services, we prioritize
+          building lasting relationships and understanding the unique needs of
+          our community. Our locally owned and operated status allows us to
+          offer skilled and compassionate professionals, including Registered
+          Nurses, Enrolled Nurses, Assistants in Nursing, and Disability Support
+          Workers. With extensive experience and expertise, we ensure the
+          highest standards of care and professionalism. With a dedication to
+          person-centered care, we strive to make a positive impact on
+          healthcare in our region and become a trusted partner in nursing for
+          years to come.
           <span class="mt-10 py-10">
             <ol class="relative border-l border-gray-200 dark:border-gray-700 py-10 sm:py-5 ">
               <li class="mb-10 ml-6">
@@ -150,7 +151,6 @@ export default function AboutusScreen() {
               />
             </div>
             <div class="relative overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
-             
               <img
                 class="h-full w-full object-cover "
                 src="https://images.pexels.com/photos/6129243/pexels-photo-6129243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

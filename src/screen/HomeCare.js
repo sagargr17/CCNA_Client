@@ -8,11 +8,10 @@ export default function HomeCare() {
   return (
     <div>
       <Header />
-    
+
       <section className="mb-2">
-        <h1 
-        class="headingText text-5xl mt-7 mx-2 font-extrabold text-blue-900 text-blue:800">
-        ~ Home Care ~
+        <h1 class="headingText text-5xl mt-7 mx-2 font-extrabold text-blue-900 text-blue:800">
+          ~ Home Care ~
         </h1>
         <div className="container ">
           <img
@@ -32,15 +31,21 @@ export default function HomeCare() {
                 textAlign: "justify",
               }}
             >
-              CCNA is your trusted partner in healthcare staffing. With a deep
-              commitment to quality care, we provide healthcare facilities with
-              access to a network of highly qualified and compassionate
-              professionals, including registered nurses, doctors, therapists,
-              and allied health specialists. Our tailored staffing solutions are
-              designed to meet your facility's unique needs, ensuring you have
-              the right personnel in place to deliver exceptional patient care.
-              Choose Health Staffing Solutions for reliable, customized staffing
-              support that helps your healthcare facility thrive.
+              We specialize in delivering qualified and compassionate healthcare
+              workers to support clients in maintaining independence within the
+              familiarity of their own homes. Our person-centered approach
+              ensures that each client receives individualized care tailored to
+              their unique needs and preferences. Whether you require temporary
+              or permanent staff, we are here to provide reliable assistance at
+              short notice to home care providers. Our dedicated employees are
+              trained to offer a comprehensive range of services, including
+              administering medications, wound care, continence and hygiene
+              care, nutrition and mobility support, Alzheimer’s, Dementia,
+              Diabetes care and management, palliative care, and assistance with
+              activities of daily living. With CCNA, rest assured that your
+              clients will receive the highest standard of care and support,
+              promoting their well-being and independence in the comfort of
+              their homes.
             </p>
             <li>bullet point 1</li>
             <li>bullet point 2</li>

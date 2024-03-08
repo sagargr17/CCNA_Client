@@ -31,7 +31,7 @@ export default function FindJobs() {
           textAlign: "center",
         }}
       >
-        <h1 class="text-2xl my-6 sm:my-20   lg:text-5xl font-bold leading-9 text-blue-900 text-blue:800 ">
+        <h1 class="text-2xl my-6 sm:my-6   lg:text-4xl font-bold leading-9 text-blue-900 text-blue:800 ">
           ~ Available Jobs ~
         </h1>
       </div>
@@ -81,7 +81,7 @@ export default function FindJobs() {
                 style={{
                   color: "#ff0e0e",
                 }}
-                class="text-xl my-10 sm:my-0  font-normal  lg:text-5xl font-bold leading-9  text-red:800 "
+                class="text-xl my-10 sm:my-0  font-normal  lg:text-3xl font-bold leading-9  text-red:800 "
               >
                 NO VACCANCY OPEN !!
               </h1>

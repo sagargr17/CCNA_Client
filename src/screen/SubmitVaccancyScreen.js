@@ -36,6 +36,7 @@ export default function SubmitVaccancyScreen() {
   };
 
   const handleSubmitForm = (event) => {
+    console.log("Submiting vaacanncy")
     event.preventDefault();
     setIsLoading(true);
 
@@ -204,6 +205,7 @@ export default function SubmitVaccancyScreen() {
               Add Your File
             </label>
             <input
+            required
               onChange={(e) => setFile(e.target.files[0])}
               type="file"
             ></input>
@@ -313,6 +315,14 @@ export default function SubmitVaccancyScreen() {
                     fill="currentFill"
                   />
                 </svg>
+                <p class="text-lg text-white mx-5">
+                  <span class="text-left">
+                    Validating your details, connecting to the best-suited
+                    options.
+                    <br></br>
+                  </span>
+                  Please wait,It may took few minutes....{" "}
+                </p>
               </div>
             </div>
           </div>

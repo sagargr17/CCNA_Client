@@ -14,7 +14,7 @@ export default function ContactusScreen() {
       <Header />
       <div class="text-center">
         <h1 class="text-4xl my-10 ml-2 lg:text-5xl font-bold leading-9 text-blue-900 text-blue:800 pb-4">
-          ~ About us ~
+          ~ Contact Us ~
         </h1>
       </div>
       <div
