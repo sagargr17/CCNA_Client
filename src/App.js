@@ -13,6 +13,7 @@ import HomeCare from "./screen/HomeCare";
 import SubmitRessumeScreen from "./screen/SubmitRessumeScreen";
 import SubmitVaccancyScreen from "./screen/SubmitVaccancyScreen";
 import TrainingScreen from "./screen/TrainingScreen";
+import Privacy from "./screen/Privacy";
 
 function App() {
   const [file, setFile] = useState();
@@ -169,6 +170,14 @@ function App() {
                   <SubmitRessumeScreen
                     isResumeForVacancy={true}
                   ></SubmitRessumeScreen>
+                </>
+              }
+            ></Route>
+            <Route
+              path="/privacy"
+              element={
+                <>
+                  <Privacy />
                 </>
               }
             ></Route>

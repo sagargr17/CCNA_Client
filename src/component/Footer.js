@@ -51,7 +51,7 @@ export default function Footer() {
                 <a class="text-white hover:text-blueGray font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
               </li>
               <li>
-                <a class="text-white hover:text-blueGray font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+                <a class="text-white hover:text-blueGray font-semibold block pb-2 text-sm" href="/Privacy">Privacy Policy</a>
               </li>
               <li>
                 <a class="text-white hover:text-blueGray font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
