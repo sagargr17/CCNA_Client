@@ -41,11 +41,30 @@ export default function TrainingScreen() {
               ideal environment for your professional growth. Join us at CCNA
               Nursing Training Center and elevate your career to new heights.
             </p>
-            <li>bullet point 1</li>
-            <li>bullet point 2</li>
-            <li>bullet point 3</li>
+            <li>HLTAID003 – Provide First Aid</li>
+            <li>
+              HLTAID004 – Provide an emergency first aid response in an
+              education and care setting
+            </li>
+            <li>
+              CHC33015 – Certificate III in Individual Support (Ageing) and
+              (Home and Community)
+            </li>
+            <li>
+              CHC33015 – Certificate III in Individual Support (Disability
+              Support)
+            </li>
+            <li>CHC43015 – Certificate IV in Ageing Support</li>
           </div>
         </div>
+        <p
+          style={{
+            fontWeight: "bold",
+            textAlign: "center",
+          }}
+        >
+          " To enrol in our course, contact our team today. "
+        </p>
       </section>
       <Joindus></Joindus>
       <Footer></Footer>

@@ -56,11 +56,29 @@ export default function Ourservice() {
         <div
           style={{
             textAlign: "center",
+            // width: "96%",
           }}
         >
-          <h1 class="text-3xl lg:text-5 xl font-bold leading-9 text-blue-900 text-blue:800 ">
-            Our Services
+          <h1 class="text-4xl lg:text-5 xl font-bold leading-9 text-blue-900 text-blue:800 ">
+            Our Story
           </h1>
+          <p
+            className="my-5 mx-10 text-lg px-20"
+            style={{
+              textAlign: "justify",
+            }}
+          >
+            Committed to delivering top-notch nursing services, Comprehensive
+            Care Nursing Agency prioritizes building lasting relationships and
+            understanding the unique needs of our community. Our locally owned
+            and operated status allows us to offer skilled and compassionate
+            professionals, including Registered Nurses, Enrolled Nurses,
+            Assistants in Nursing, and Disability Support Workers. With
+            extensive experience and expertise, we ensure the highest standards
+            of care and professionalism. With a dedication to person-centred
+            care, we strive to make a positive impact on healthcare in our
+            region and become a trusted partner in nursing for years to come.
+          </p>
         </div>
         <div class="2xl:container 2xl:mx-auto lg:py-16   lg:pb-5 lg:px-20 md:py-9 md:px-6 py-2 px-4   flex flex-col sm:flex-row w-50 ">
           <div class="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow my-2 mx-2">
@@ -170,6 +188,19 @@ export default function Ourservice() {
         <h1 class="text-3xl lg:text-5xl mb-5 ml-2  font-bold leading-9 text-blue-900 text-blue:800 ">
           Our Services
         </h1>
+        <p>
+          {" "}
+          Committed to delivering top-notch nursing services, Comprehensive Care
+          Nursing Agency prioritizes building lasting relationships and
+          understanding the unique needs of our community. Our locally owned and
+          operated status allows us to offer skilled and compassionate
+          professionals, including Registered Nurses, Enrolled Nurses,
+          Assistants in Nursing, and Disability Support Workers. With extensive
+          experience and expertise, we ensure the highest standards of care and
+          professionalism. With a dedication to person-centred care, we strive
+          to make a positive impact on healthcare in our region and become a
+          trusted partner in nursing for years to come.
+        </p>
         <div
           style={
             {
@@ -177,7 +208,7 @@ export default function Ourservice() {
             }
           }
         >
-          <div>
+          <div className="my-5">
             <ReactCardSlider slides={slides} />
           </div>
         </div>

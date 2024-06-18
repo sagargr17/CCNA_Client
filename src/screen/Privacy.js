@@ -5,7 +5,9 @@ export default function Privacy() {
   return (
     <div>
       <Header />
-      <div class="my-2 mx-4 p-4">
+      <div class="my-8 mx-4 px-12" style={{
+        // backgroundImage:"https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+      }}>
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight  md:text-5xl lg:text-6xl text-blue-800 ">
           Privacy and Policies
         </h1>
@@ -159,7 +161,7 @@ export default function Privacy() {
             following contact address.
             <br></br>
             <div
-              className="bg-gray-500 my-5 p-6"
+              className="bg-gray-500 my-12 p-6"
               style={{
                 borderRadius: 7,
                 textAlign:"center"
