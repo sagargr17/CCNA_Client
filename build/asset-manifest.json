@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42b322b3.css",
+    "main.js": "/static/js/main.7aa03f95.js",
+    "static/js/988.6878b1ef.chunk.js": "/static/js/988.6878b1ef.chunk.js",
+    "static/media/primaryPNG.png": "/static/media/primaryPNG.3e554a2a60e265d23014.png",
+    "static/media/PTSerif-Regular.ttf": "/static/media/PTSerif-Regular.6271ca9bf4c029802fc0.ttf",
+    "static/media/PTSerif-Bold.ttf": "/static/media/PTSerif-Bold.baec85e607f452497274.ttf",
+    "static/media/PTSerif-BoldItalic.ttf": "/static/media/PTSerif-BoldItalic.318ae97b9a42b7a6d6ba.ttf",
+    "static/media/location.png": "/static/media/location.253fcf61a61f7c8a073e.png",
+    "static/media/telephone.png": "/static/media/telephone.fb244201058d6b0c101c.png",
+    "static/media/envelope.png": "/static/media/envelope.6ad6b0f7b5ecfd40ba8e.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.42b322b3.css.map": "/static/css/main.42b322b3.css.map",
+    "main.7aa03f95.js.map": "/static/js/main.7aa03f95.js.map",
+    "988.6878b1ef.chunk.js.map": "/static/js/988.6878b1ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42b322b3.css",
+    "static/js/main.7aa03f95.js"
+  ]
+}
