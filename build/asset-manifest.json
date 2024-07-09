@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.42b322b3.css",
-    "main.js": "/static/js/main.7aa03f95.js",
-    "static/js/988.6878b1ef.chunk.js": "/static/js/988.6878b1ef.chunk.js",
+    "main.css": "/static/css/main.7e7d718b.css",
+    "main.js": "/static/js/main.e14744b5.js",
+    "static/js/988.01eb6c4b.chunk.js": "/static/js/988.01eb6c4b.chunk.js",
     "static/media/primaryPNG.png": "/static/media/primaryPNG.3e554a2a60e265d23014.png",
     "static/media/PTSerif-Regular.ttf": "/static/media/PTSerif-Regular.6271ca9bf4c029802fc0.ttf",
     "static/media/PTSerif-Bold.ttf": "/static/media/PTSerif-Bold.baec85e607f452497274.ttf",
@@ -14,12 +14,12 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.42b322b3.css.map": "/static/css/main.42b322b3.css.map",
-    "main.7aa03f95.js.map": "/static/js/main.7aa03f95.js.map",
-    "988.6878b1ef.chunk.js.map": "/static/js/988.6878b1ef.chunk.js.map"
+    "main.7e7d718b.css.map": "/static/css/main.7e7d718b.css.map",
+    "main.e14744b5.js.map": "/static/js/main.e14744b5.js.map",
+    "988.01eb6c4b.chunk.js.map": "/static/js/988.01eb6c4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b322b3.css",
-    "static/js/main.7aa03f95.js"
+    "static/css/main.7e7d718b.css",
+    "static/js/main.e14744b5.js"
   ]
 }
